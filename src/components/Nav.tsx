@@ -5,8 +5,9 @@ import { useEffect, useState } from "react";
 const sections = [
   { id: "background", label: "Background" },
   { id: "evolution", label: "Evolution" },
+  { id: "design", label: "Design" },
   { id: "work", label: "Work" },
-  { id: "next", label: "Next" },
+  { id: "profile", label: "Profile" },
 ];
 
 export default function Nav() {

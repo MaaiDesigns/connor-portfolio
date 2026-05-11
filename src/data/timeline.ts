@@ -10,19 +10,19 @@ export const timeline: TimelineEntry[] = [
     period: "2021–2023",
     label: "AI Startup + Microsoft",
     description:
-      "Product leadership at a venture-backed AI startup. Led a major project with Microsoft — translating customer requirements into technical strategy alongside the CTO, founder, designers, and senior advisors. Built the muscle for scoping complex systems and bridging business needs with engineering execution.",
+      "Product leadership at a venture-backed AI startup in Cincinnati. Started in business development and partnerships, grew into Chief of Staff. Raised venture capital, built a partnership with Microsoft, became a Microsoft Co-Pilot partner, and presented at Microsoft Build. Managed development projects with Microsoft directly.",
   },
   {
     period: "2023–2024",
     label: "AI Consulting",
     description:
-      "Applied AI strategy across small manufacturing, venture capital, and early-stage companies. Worked directly with founders and operators to identify where AI creates real operational leverage — and where it doesn't.",
+      "Applied AI strategy across venture capital firms, private equity firms, family offices, and small manufacturers. Built partnerships with V7 Labs, Emma Legal, and Quill Meetings. Worked with data partners including Crust Data. Architected AI systems and built tooling for operations, deal sourcing, and research.",
   },
   {
     period: "2024",
     label: "Hands-On Building",
     description:
-      "Added direct technical execution to the strategic foundation. Began building production software — client projects, internal tools, automation pipelines — using AI-assisted development environments.",
+      "Added direct technical execution to the strategic foundation. Began building production software — client projects, internal tools, automation pipelines — using AI-assisted development environments. The combination of systems-thinking background and hands-on building created a compounding advantage.",
   },
   {
     period: "Late 2024",

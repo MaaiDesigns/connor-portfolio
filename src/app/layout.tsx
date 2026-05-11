@@ -17,10 +17,37 @@ const spaceGrotesk = Space_Grotesk({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const SITE_URL = "https://connor-portfolio-flame.vercel.app";
+const TITLE = "Connor O'Hearn — Systems Architect & AI Builder";
+const DESCRIPTION =
+  "Portfolio of Connor O'Hearn. AI systems, autonomous agents, and production software. Founder of 2555 Ventures LLC.";
+
 export const metadata: Metadata = {
-  title: "Connor O'Hearn — Systems Architect & AI Builder",
-  description:
-    "Five years in AI — from product leadership at a venture-backed startup to building autonomous agent platforms. I design pipelines, orchestration layers, and production systems that turn complex problems into repeatable infrastructure.",
+  metadataBase: new URL(SITE_URL),
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Connor O'Hearn",
+    type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: TITLE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function RootLayout({

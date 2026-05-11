@@ -17,4 +17,10 @@ export const upcoming: UpcomingProject[] = [
       "An intelligent property identification system for a 50-unit portfolio owner. Analyzes existing successful properties to build a scoring model, then scans available inventory to surface acquisition targets that match the established pattern.",
     tags: ["Real Estate Analytics", "Pattern Matching", "Portfolio Analysis"],
   },
+  {
+    title: "Career Management Platform",
+    description:
+      "A career management tool in collaboration with an entrepreneur — helping professionals track, plan, and advance their careers with AI-assisted guidance.",
+    tags: ["SaaS", "Career Development", "AI-Assisted"],
+  },
 ];

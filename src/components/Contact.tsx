@@ -40,6 +40,8 @@ export default function Contact() {
             connor@maaidesigns.com
           </a>
         </motion.div>
+
+        {/* TODO: Add testimonial/social proof block here when available */}
       </div>
     </section>
   );

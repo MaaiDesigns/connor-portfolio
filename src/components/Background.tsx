@@ -46,8 +46,9 @@ export default function Background() {
             </p>
             <p className="text-[15.5px] leading-[1.75] text-brand-charcoal/85">
               I added a Master&apos;s in Geography with a GIS concentration and
-              a certificate in Financial Planning &amp; Analysis — bringing
-              spatial analysis and financial modeling into the toolkit.
+              a certificate in Financial Planning &amp; Analysis from the
+              Wharton School — bringing spatial analysis and financial modeling
+              into the toolkit.
             </p>
           </motion.div>
 
@@ -59,18 +60,19 @@ export default function Background() {
           >
             <p className="section-label mb-5">The Proving Ground</p>
             <p className="text-[15.5px] leading-[1.75] text-brand-charcoal/85 mb-5">
-              In 2021, I joined a venture-backed AI startup in a product
-              leadership role and led a major project with Microsoft. My role
-              was translating customer requirements into technical strategy —
-              scoping what gets built, how it&apos;s architected, and how it
-              ships.
+              My early career was at Textron Aviation — a Fortune 100 aircraft
+              manufacturer — where I completed a year-long sales development
+              program and then sold business jets in the field: Cessna
+              Citations, Beechcraft King Airs, and Caravans. That experience
+              built the client-facing instincts and technical communication
+              skills that carry through everything I do today.
             </p>
             <p className="text-[15.5px] leading-[1.75] text-brand-charcoal/85">
-              From there, I moved into AI consulting — working directly with
-              small manufacturers, venture capital firms, and early-stage
-              companies to identify where AI creates real operational leverage.
-              Each engagement built the pattern library for the systems I
-              design today.
+              From there, I joined a venture-backed AI startup in a product
+              leadership role, built a partnership with Microsoft, and led our
+              team to become a Microsoft Co-Pilot partner — presenting at
+              Microsoft Build and working on development projects with
+              Microsoft hand in hand.
             </p>
           </motion.div>
         </div>
@@ -78,7 +80,7 @@ export default function Background() {
         <motion.blockquote
           {...fadeUp}
           transition={{ duration: 0.7, delay: 0.25 }}
-          className="rounded-xl bg-brand-linen p-8 md:p-10 mb-12"
+          className="rounded-xl bg-brand-linen p-8 md:p-10"
           style={{ borderLeft: "3px solid #b87333" }}
         >
           <p className="font-serif italic text-[20px] md:text-[22px] leading-[1.55] text-brand-charcoal/90">
@@ -88,40 +90,6 @@ export default function Background() {
             for my own ventures.&rdquo;
           </p>
         </motion.blockquote>
-
-        <motion.div
-          {...fadeUp}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="grid md:grid-cols-3 gap-6 md:gap-10 pt-8 border-t"
-          style={{ borderColor: "rgba(139, 111, 78, 0.2)" }}
-        >
-          <div>
-            <p className="section-label mb-3">Education</p>
-            <p className="text-[14px] leading-[1.7] text-brand-charcoal/80">
-              B.S. Supply Chain &amp; Operations Mgmt
-              <br />
-              M.S. Geography (GIS)
-              <br />
-              Cert. Financial Planning &amp; Analysis
-            </p>
-          </div>
-          <div>
-            <p className="section-label mb-3">Experience</p>
-            <p className="text-[14px] leading-[1.7] text-brand-charcoal/80">
-              Product Lead, AI Startup (w/ Microsoft)
-              <br />
-              AI Consulting — SMB &amp; Venture
-              <br />
-              Founder, 2555 Ventures LLC
-            </p>
-          </div>
-          <div>
-            <p className="section-label mb-3">Based In</p>
-            <p className="text-[14px] leading-[1.7] text-brand-charcoal/80">
-              Savannah, GA
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { Project } from "@/data/projects";
+import ArchitectureDiagram from "./ArchitectureDiagram";
 
 export default function ProjectCard({ project }: { project: Project }) {
   const [open, setOpen] = useState(false);
@@ -74,7 +75,12 @@ export default function ProjectCard({ project }: { project: Project }) {
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <div className="pt-8 mt-8 border-t" style={{ borderColor: "rgba(139, 111, 78, 0.2)" }}>
+            <div
+              className="pt-8 mt-8 border-t"
+              style={{ borderColor: "rgba(139, 111, 78, 0.2)" }}
+            >
+              {project.diagram && <ArchitectureDiagram variant={project.diagram} />}
+
               <div className="mb-6">
                 <p className="section-label mb-2">Solution</p>
                 <p className="text-[15px] leading-[1.75] text-brand-charcoal/85">
@@ -103,6 +109,12 @@ export default function ProjectCard({ project }: { project: Project }) {
                   ))}
                 </ul>
               </div>
+
+              {project.crossReference && (
+                <p className="mt-6 text-[13px] italic text-brand-charcoal/60">
+                  {project.crossReference}
+                </p>
+              )}
 
               {project.liveSites && project.liveSites.length > 0 && (
                 <div className="mt-8">

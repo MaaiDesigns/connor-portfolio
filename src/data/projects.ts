@@ -15,7 +15,9 @@ export type Project = {
   solution: string;
   outcome: string;
   technical: string[];
+  diagram?: "geo" | "vc" | "moco";
   liveSites?: LiveSite[];
+  crossReference?: string;
 };
 
 export const projects: Project[] = [
@@ -26,6 +28,7 @@ export const projects: Project[] = [
     client: "Early-Stage Startup",
     year: "2024",
     tags: ["Agent Architecture", "Lead Generation", "API Orchestration"],
+    diagram: "geo",
     problem:
       "A startup needed to identify prospects matching a specific ideal customer profile across multiple geographies. The manual process was slow, inconsistent, and couldn't scale with their growth targets.",
     solution:
@@ -46,16 +49,19 @@ export const projects: Project[] = [
     client: "Venture Capital Firm",
     year: "2024",
     tags: ["CRM Integration", "Multi-Stage Pipeline", "Search & Enrichment APIs"],
+    diagram: "vc",
     problem:
       "A VC firm needed to increase deal flow velocity without sacrificing quality. Analysts were spending hours on manual note-taking after meetings and even more time sourcing companies that fit a nuanced investment thesis.",
     solution:
       "Started with the bottleneck closest to revenue: a meeting-note-to-CRM integration that automatically extracted relevant details from transcripts and wrote structured notes directly into the CRM. With that foundation in place, designed a multi-stage deal sourcing pipeline that utilized search and enrichment APIs to find companies and evaluate them through progressive layers of thesis-fit scoring. Companies that passed each stage were enriched further and re-evaluated — creating a funnel that surfaced only the highest-quality prospects.",
     outcome:
-      "Analysts received curated, thesis-matched prospect lists in their inbox every morning. Multi-stage filtering dramatically reduced time spent on unqualified leads, letting the team focus on relationship-building instead of research.",
+      "Analysts received curated, thesis-matched prospect lists in their inbox every morning — 5 qualified companies per day. Multi-stage filtering dramatically reduced time spent on unqualified leads, letting the team focus on relationship-building instead of research.",
     technical: [
       "Meeting transcript → structured CRM entries",
       "Investment thesis prompt engineering",
-      "Multi-stage search, enrichment, and evaluation pipeline",
+      "Multi-stage search, enrichment, and evaluation pipeline (Crust Data and other enrichment APIs)",
+      "OpenClaw for additional enrichment layers",
+      "Kanban-based staging system",
       "Automated daily delivery to analyst workflows",
     ],
   },
@@ -66,6 +72,7 @@ export const projects: Project[] = [
     client: "Internal Platform / 2555 Ventures",
     year: "2025–Present",
     tags: ["Platform Engineering", "Autonomous Agents", "DevOps", "Model Routing"],
+    diagram: "moco",
     problem:
       "Small businesses need quality web presence and ongoing content marketing, but can't afford traditional agency pricing. Delivering boutique quality at scale requires infrastructure that doesn't grow linearly with headcount.",
     solution:
@@ -90,18 +97,20 @@ export const projects: Project[] = [
     year: "2025",
     tags: ["Next.js", "Vercel", "Production Deployment", "Client Delivery"],
     problem:
-      "Local small businesses either had no web presence or were overpaying agencies for cookie-cutter templates. They needed professional, performant sites that reflected their business — without the $5K+ price tag.",
+      "Local small businesses either had no web presence or were overpaying agencies. They needed professional, performant sites without the $5K+ price tag.",
     solution:
-      "Designed and deployed production Next.js sites through the MOCO pipeline. Each site is custom-built with a cohesive design language, deployed on Vercel with professional-grade performance and optimized for search.",
+      "Designed and deployed production Next.js sites through the MOCO pipeline. Custom-built with a cohesive design language, Vercel deployment, search-optimized.",
     outcome:
-      "Live production sites serving real businesses with ongoing content and maintenance delivered through the MOCO platform at a fraction of traditional agency cost.",
+      "Live production sites serving real businesses. Best Cleaners saw a $40K Q1 YoY revenue increase — 33× ROI on a $300/month investment.",
     technical: [
-      "Next.js 14 with App Router",
-      "Vercel deployment pipeline",
-      "Formspree form integrations",
-      "Responsive, performance-optimized builds",
-      "Cohesive design system across all properties",
+      "Next.js 14 App Router",
+      "Vercel deployment",
+      "Formspree integrations",
+      "Performance-optimized",
+      "Cohesive design system",
     ],
+    crossReference:
+      "See the Design Showcase section above for device mockups of each site.",
     liveSites: [
       {
         name: "Maai Designs",
