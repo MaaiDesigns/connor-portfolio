@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
         >
           <p className="section-label mb-6">
-            Systems Architect · AI Builder · Founder
+            AI Systems Designer · Process Architect · Founder
           </p>
         </motion.div>
 
@@ -34,8 +34,8 @@ export default function Hero() {
           className="font-serif font-medium text-brand-charcoal leading-[1.05] tracking-[-0.01em] mb-8"
           style={{ fontSize: "clamp(42px, 6vw, 74px)" }}
         >
-          I architect systems that{" "}
-          <span className="italic text-brand-terracotta">compound.</span>
+          I design AI systems that{" "}
+          <span className="italic text-brand-terracotta">compress time.</span>
         </motion.h1>
 
         <motion.p
@@ -44,10 +44,11 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.35 }}
           className="text-[17px] leading-[1.65] text-brand-charcoal/75 max-w-2xl mb-10"
         >
-          Five years in AI — from product leadership at a venture-backed startup
-          to building autonomous agent platforms. I design pipelines,
-          orchestration layers, and production systems that turn complex
-          problems into repeatable infrastructure.
+          Five years designing AI applications — from product leadership at a
+          venture-backed startup to building autonomous workflows for venture
+          capital firms, family offices, and small businesses. I help teams
+          rethink how work gets done and build simple, practical tools that
+          turn multi-day processes into minutes.
         </motion.p>
 
         <motion.div
@@ -61,13 +62,13 @@ export default function Hero() {
             className="rounded-full bg-brand-green text-white font-semibold px-7 py-3.5 text-[14px] tracking-wide transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
             style={{ boxShadow: "0 4px 14px rgba(61, 90, 71, 0.18)" }}
           >
-            View Work →
+            View Projects →
           </button>
           <button
             onClick={() => handleClick("background")}
             className="rounded-full border border-brand-green text-brand-green font-semibold px-7 py-3.5 text-[14px] tracking-wide transition-all duration-300 hover:bg-brand-green hover:text-white"
           >
-            Read the Story
+            How I Work
           </button>
         </motion.div>
       </div>

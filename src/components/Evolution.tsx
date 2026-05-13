@@ -24,9 +24,9 @@ export default function Evolution() {
           className="font-serif font-medium text-brand-charcoal leading-[1.15] tracking-[-0.005em] mb-6 max-w-4xl"
           style={{ fontSize: "clamp(28px, 3.6vw, 44px)" }}
         >
-          From strategy to{" "}
+          From product design to{" "}
           <span className="italic text-brand-terracotta">
-            full-stack execution
+            autonomous systems
           </span>
         </motion.h2>
 
@@ -35,9 +35,8 @@ export default function Evolution() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-[16px] leading-[1.7] text-brand-charcoal/75 max-w-3xl mb-16"
         >
-          Five years of compounding — each phase built on the last. The
-          strategic foundation makes the technical execution sharper, and the
-          hands-on building makes the strategy more grounded.
+          Each phase built on the last — deeper technical capability, better
+          pattern recognition for where AI actually moves the needle.
         </motion.p>
 
         <div className="relative">

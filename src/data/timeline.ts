@@ -8,39 +8,33 @@ export type TimelineEntry = {
 export const timeline: TimelineEntry[] = [
   {
     period: "2021–2023",
-    label: "AI Startup + Microsoft",
+    label: "AI Product Design + Microsoft",
     description:
-      "Product leadership at a venture-backed AI startup in Cincinnati. Started in business development and partnerships, grew into Chief of Staff. Raised venture capital, built a partnership with Microsoft, became a Microsoft Co-Pilot partner, and presented at Microsoft Build. Managed development projects with Microsoft directly.",
+      "Product leadership at a venture-backed AI startup. Hands-on with UX/UI design, feature architecture, and engineering collaboration — not just strategy. Built a partnership with Microsoft, became a Microsoft Co-Pilot partner, and presented at Microsoft Build. Worked directly with Microsoft product managers on development projects. Learned how AI products get designed, scoped, and shipped.",
   },
   {
     period: "2023–2024",
     label: "AI Consulting",
     description:
-      "Applied AI strategy across venture capital firms, private equity firms, family offices, and small manufacturers. Built partnerships with V7 Labs, Emma Legal, and Quill Meetings. Worked with data partners including Crust Data. Architected AI systems and built tooling for operations, deal sourcing, and research.",
+      "Applied AI systems design across venture capital firms, private equity firms, family offices, and small manufacturers. Built internal tools, research pipelines, and deal sourcing systems. Focused on practical implementations — dashboards, agent workflows, and CRM integrations — not theoretical strategy decks.",
   },
   {
     period: "2024",
-    label: "Hands-On Building",
+    label: "Hands-On Tool Building",
     description:
-      "Added direct technical execution to the strategic foundation. Began building production software — client projects, internal tools, automation pipelines — using AI-assisted development environments. The combination of systems-thinking background and hands-on building created a compounding advantage.",
+      "Added direct technical execution to the design foundation. Started building the tools myself — simple dashboards, data pipelines, agent orchestration — using AI-assisted development. The combination of process-design thinking and hands-on building meant I could go from whiteboard to working prototype without a development team.",
   },
   {
     period: "Late 2024",
     label: "Terminal-Based Development",
     description:
-      "Shifted to terminal-based Claude Code workflows for more complex architectures. Faster iteration, better context management, and the ability to tackle multi-service system builds.",
+      "Shifted to terminal-based Claude Code workflows for more complex system architectures. Faster iteration, better context management, and the ability to build multi-component systems end-to-end.",
   },
   {
-    period: "2025",
+    period: "2025–Present",
     label: "Autonomous Agent Systems",
     description:
-      "Designed and deployed autonomous agent pipelines via OpenClaw. The shift from interactive development to delegated execution — agents running research, content, and prospecting workflows with minimal oversight.",
-  },
-  {
-    period: "2026",
-    label: "MOCO Platform",
-    description:
-      "Full autonomous digital employee system on dedicated hardware. Model routing, skill libraries, multi-interface access, GitHub-synced deployment. One operator delivering what previously required a team.",
+      "Designing and deploying autonomous agent platforms — systems that run research, content, prospecting, and operational workflows with minimal human oversight. Building my own business on this infrastructure while consulting with companies doing the same.",
     isCurrent: true,
   },
 ];

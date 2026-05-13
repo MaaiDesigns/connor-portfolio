@@ -26,9 +26,11 @@ export default function Contact() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-[17px] md:text-[18px] leading-[1.7] text-brand-charcoal/80 mb-10 max-w-2xl mx-auto"
         >
-          Whether it&apos;s joining a team, consulting on a build, or
-          architecting something from scratch — I&apos;m interested in hard
-          problems with real stakes.
+          I work with businesses and entrepreneurs who see the potential of AI
+          and want a practical system built — not a strategy deck. Whether
+          it&apos;s an internal tool, an agent workflow, or rethinking how your
+          team operates, I&apos;m interested in problems where AI can compress
+          weeks into hours.
         </motion.p>
 
         <motion.div {...fadeUp} transition={{ duration: 0.7, delay: 0.2 }}>

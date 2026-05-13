@@ -18,9 +18,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const SITE_URL = "https://www.2555ventures.com";
-const TITLE = "Connor O'Hearn — Systems Architect & AI Builder";
+const TITLE = "Connor O'Hearn — AI Systems Designer & Process Architect";
 const DESCRIPTION =
-  "Portfolio of Connor O'Hearn. AI systems, autonomous agents, and production software. Founder of 2555 Ventures LLC.";
+  "Connor O'Hearn — AI systems designer helping businesses build practical tools, agent workflows, and internal platforms. Founder of 2555 Ventures LLC.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

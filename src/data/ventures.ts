@@ -22,14 +22,8 @@ export const ventures: Venture[] = [
   {
     name: "Maai Services",
     description:
-      "AI architecture consulting. Helping companies plan and build their AI systems.",
+      "AI systems design and consulting. Helping companies build practical AI tools and workflows.",
     status: "Active",
-  },
-  {
-    name: "Maai Machines",
-    description:
-      "Pre-configured Mac Minis and Mac Studios for AI development.",
-    status: "Side project",
   },
   {
     name: "Franchise Site Selection",
@@ -42,17 +36,5 @@ export const ventures: Venture[] = [
     description:
       "Property identification and scoring tool for a 50-unit portfolio owner.",
     status: "In development",
-  },
-  {
-    name: "Career Management Platform",
-    description:
-      "Career management tool in collaboration with an entrepreneur.",
-    status: "Early stage",
-  },
-  {
-    name: "Staffing & Recruiting Tool",
-    description:
-      "AI-assisted sourcing tool for a staffing and recruiting business.",
-    status: "Early stage",
   },
 ];

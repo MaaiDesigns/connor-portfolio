@@ -19,13 +19,13 @@ export const career: CareerRole[] = [
   {
     company: "AI Startup, Cincinnati",
     context: "Venture-Backed AI Company",
-    role: "BD / Head of Partnerships → Chief of Staff",
+    role: "Product Design & Partnerships → Chief of Staff",
     bullets: [
-      "Raised venture capital and built the company's investor network",
+      "Led product design — UX/UI layouts, feature architecture, and engineering collaboration",
       "Built partnership with Microsoft — became a Microsoft Co-Pilot partner",
       "Presented at Microsoft Build",
-      "Managed development projects with Microsoft directly",
-      "Built out the pilot network and go-to-market strategy",
+      "Worked directly with Microsoft product managers on development projects",
+      "Raised venture capital and built the company's investor network",
     ],
   },
   {
@@ -48,7 +48,7 @@ export const career: CareerRole[] = [
     bullets: [
       "Founded and operate an AI-first digital marketing agency (Maai Designs)",
       "Architected MOCO — autonomous digital employee platform on dedicated hardware",
-      "Launched Maai Services for AI architecture consulting",
+      "Launched Maai Services for AI systems design and consulting",
       "Built and deployed production websites for multiple clients",
       "Developing predictive models, sourcing tools, and autonomous agent systems",
     ],
