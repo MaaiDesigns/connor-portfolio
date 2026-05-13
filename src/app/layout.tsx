@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const SITE_URL = "https://connor-portfolio-flame.vercel.app";
+const SITE_URL = "https://www.2555ventures.com";
 const TITLE = "Connor O'Hearn — Systems Architect & AI Builder";
 const DESCRIPTION =
   "Portfolio of Connor O'Hearn. AI systems, autonomous agents, and production software. Founder of 2555 Ventures LLC.";
